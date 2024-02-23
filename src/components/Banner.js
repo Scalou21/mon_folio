@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 
-export function TitleFolio(){
+export function Banner(){
     return(
 
         <Fragment>
