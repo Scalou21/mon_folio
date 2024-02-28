@@ -1,24 +1,23 @@
 import { Fragment } from "react";
+import WebList from "./WebList";
+import DesignList from "./DesignList";
 
-export function Skills(){
-    return(
+export default function Skills() {
+  return (
+    <Fragment>
+      <section>
+        <h2>COMPÉTENCES</h2>
 
-        <Fragment>
+        <div>
+          <h3>WEB</h3>
+          <WebList />
+        </div>
 
-            <section>
-
-                <h2>COMPÉTENCES</h2>
-
-                <div>
-                    <h3>WEB</h3>
-                </div>
-
-                <div>
-                    <h3>DESIGN</h3>
-                </div>
-            </section>
-
-        </Fragment>
-
-    );
+        <div>
+          <h3>DESIGN</h3>
+          <DesignList />
+        </div>
+      </section>
+    </Fragment>
+  );
 }

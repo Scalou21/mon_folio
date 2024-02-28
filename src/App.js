@@ -1,21 +1,17 @@
 import { Fragment } from "react";
-import { Header } from ".//components/Header.js";
-import { Main } from ".//components/Main.js";
-import { Footer } from ".//components/Footer.js";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-
     <Fragment>
-
       <Header />
 
       <Main />
 
       <Footer />
-
     </Fragment>
-
   );
 }
 

@@ -1,20 +1,16 @@
 import { Fragment } from "react";
-import { Banner } from "./Banner.js";
-import { About } from "./About.js";
-import { Skills } from "./Skills.js";
+import Banner from "./Banner.js";
+import About from "./About.js";
+import Skills from "./Skills.js";
 
-export function Main(){
-    return(
+export default function Main() {
+  return (
+    <Fragment>
+      <Banner />
 
-        <Fragment>
+      <About />
 
-            <Banner />
-
-            <About />
-
-            <Skills />
-
-        </Fragment>
-
-    );
+      <Skills />
+    </Fragment>
+  );
 }

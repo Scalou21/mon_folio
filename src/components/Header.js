@@ -1,14 +1,11 @@
-import { Navbar } from "./Navbar"
+import Navbar from "./Navbar";
 
-export function Header(){
-    return(
+export default function Header() {
+  return (
+    <header>
+      <img src="../../assets/logo.png" alt="my logo" />
 
-        <header>
-
-            <img src="../../assets/logo.png" alt="my logo" />
-
-            <Navbar />
-  
-        </header>
-    );
+      <Navbar />
+    </header>
+  );
 }
