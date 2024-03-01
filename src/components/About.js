@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { Button } from "react";
+
 export default function About() {
   return (
     <section>
@@ -16,6 +19,10 @@ export default function About() {
 
         <p>Qu’attendez-vous pour me recruter ?</p>
       </div>
+
+      <Link to="/apropos">
+        <button>+ si afinités</button>
+      </Link>
     </section>
   );
 }
