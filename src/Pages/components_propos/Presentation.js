@@ -1,5 +1,7 @@
 import { Fragment } from "react";
 import Formation from "./Formation";
+import Interest from "./Interest";
+import Objectives from "./Objectives";
 
 export default function Presentation() {
   return (
@@ -25,6 +27,8 @@ export default function Presentation() {
       </section>
       <section>
         <Formation />
+        <Interest />
+        <Objectives />
       </section>
     </Fragment>
   );

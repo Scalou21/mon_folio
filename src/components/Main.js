@@ -6,11 +6,13 @@ import Skills from "./Skills.js";
 export default function Main() {
   return (
     <Fragment>
-      <Banner />
+      <main>
+        <Banner />
 
-      <About />
+        <About />
 
-      <Skills />
+        <Skills />
+      </main>
     </Fragment>
   );
 }
