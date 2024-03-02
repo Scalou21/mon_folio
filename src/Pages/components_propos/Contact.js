@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import SocialList from "./SocialList";
 
 export default function Contact() {
   return (
@@ -15,7 +16,7 @@ export default function Contact() {
           <p>07.81.01.84.88</p>
         </div>
         <div>
-            
+            <SocialList  />
         </div>
       </section>
     </Fragment>
