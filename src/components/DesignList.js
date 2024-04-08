@@ -7,18 +7,21 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const iconsDesign = [
-  { icon: faLayerGroup, alt: "Photoshop" },
-  { icon: faBezierCurve, alt: "Illustrator" },
-  { icon: faBookOpen, alt: "InDesign" },
-  { icon: faPen, alt: "Tablette graphique" },
+  { icon: faLayerGroup, text: "Photoshop" },
+  { icon: faBezierCurve, text: "Illustrator" },
+  { icon: faBookOpen, text: "InDesign" },
+  { icon: faPen, text: "Tablette" },
 ];
 
 export default function DesignList() {
   return (
-    <ul>
+    <ul className="is-flex is-align-items-center is-justify-content-space-around width-100vw fa-9x has-text-black">
       {iconsDesign.map((element) => (
-        <li key={element.alt} id={element.alt}>
-          <FontAwesomeIcon icon={element.icon} alt={element.alt} />
+        <li key={element.text} id={element.text}>
+          <FontAwesomeIcon icon={element.icon} text={element.text} />
+          <p className="is-size-4 is-flex is-justify-content-center has-text-centered">
+            {element.text}
+          </p>
         </li>
       ))}
     </ul>

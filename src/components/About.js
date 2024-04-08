@@ -1,15 +1,20 @@
 import { Link } from "react-router-dom";
-import { Button } from "react";
 
 export default function About() {
   return (
-    <section>
-      <h3>C'EST MOI</h3>
+    <section className="section pt-0 vh-100 is-flex">
+      <aside className="is-flex">
+        <h3 className="is-family-sans-serif has-text-weight-semibold has-text-grey is-size-folio vertical vh-100 lh-11">
+          C'EST MOI
+        </h3>
+      </aside>
 
-      <div>
-        <h4>Bonjour !</h4>
+      <article className="is-flex is-flex-direction-column is-justify-content-center ml-10">
+        <h4 className="is-family-primary fs-title has-text-weight-semibold has-text-black">
+          Bonjour !
+        </h4>
 
-        <p>
+        <p className="is-size-1 mt-6">
           Moi c’est Jérôme, basé à Dijon - oui oui, la moutarde tout ça - en
           France. Passionné du monde du web, du graphisme et du dessin, je suis
           designer web junior en quête d’opportunités professionnelles. Je suis
@@ -17,12 +22,15 @@ export default function About() {
           mettre en œuvre mes compétences.
         </p>
 
-        <p>Qu’attendez-vous pour me recruter ?</p>
-      </div>
-
-      <Link to="/apropos">
-        <button>+ si afinités</button>
-      </Link>
+        <p className="is-size-1 mt-6">Qu’attendez-vous pour me recruter ?</p>
+        <div className="is-flex is-justify-content-flex-end">
+          <Link to="/apropos">
+            <button className="button is-black is-outlined is-medium is-radiusless has-text-weight-semibold mt-6 transition">
+              + si affinités
+            </button>
+          </Link>
+        </div>
+      </article>
     </section>
   );
 }

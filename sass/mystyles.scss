@@ -1,31 +1,180 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-// Set your brand colors
-$purple: #8A4D76;
-$pink: #FA7C91;
-$brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
+$family-sans-serif: "Roboto";
+$family-primary: "Raleway";
+$family-secondary: "Roboto Condensed";
 
-// Update Bulma's global variables
-$family-sans-serif: "Nunito", sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
-$primary: $purple;
-$link: $pink;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
 
-// Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
-$control-border-width: 2px;
-$input-border-color: transparent;
-$input-shadow: none;
+// Variables for Navbar
+$navbar-height: 8.75rem;
+$resize-logo-nav: 4rem;
+
+.navbar-item img {
+  max-height: $resize-logo-nav !important;
+}
+
+// Width
+
+.width-100vw {
+  width: 100vw;
+}
+
+.w-50pct {
+  width: 50%;
+}
+
+.w-45{
+  width: 45rem;
+}
+
+.w-70{
+  width: 70rem;;
+}
+
+.w-25{
+  width: 25rem;
+}
+
+
+.w-max-content {
+  width: max-content;
+}
+
+// Height
+
+
+.vh-100 {
+  height: 100vh;
+}
+
+.vh-50{
+  height: 50vh;
+}
+
+.h-15{
+  height: 15rem;
+}
+
+.vw-100 {
+  height: 100vw;
+}
+
+
+// Font-size
+
+
+.fs-title{
+  font-size: 3.75rem !important;
+}
+
+.fs-2-25{
+  font-size: 2.25rem;
+}
+
+.fs-8{
+  font-size: 8rem;
+}
+
+.fs-10{
+  font-size: 10rem;
+}
+
+.fs-9{
+  font-size: 9.4rem;
+}
+
+.fs-4{
+  font-size: 4rem;
+}
+
+.fs-6{
+  font-size: 6rem;
+}
+
+
+.is-size-title {
+  font-size: 6.25rem;
+}
+
+.is-size-folio {
+  font-size: 11.5vw;
+}
+
+
+// Margin
+
+.mt-9 {
+  margin-top: 9rem;
+}
+
+.ml-10 {
+  margin-left: 10rem;
+}
+
+
+// Padding
+
+.pt-10 {
+  padding-top: 10rem;
+}
+
+
+
+// Line-height
+
+.lh-7 {
+  line-height: 7rem;
+}
+
+.lh-11 {
+  line-height: 11rem;
+}
+
+
+// Transform
+
+.is-vertical {
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+  transform: scale(-1);
+}
+
+.vertical-inverse {
+  writing-mode: vertical-rl;
+}
+
+
+.transition {
+  transition: all .4s ease-out;
+}
+
+.borderless {
+  border: none !important;
+}
+
+.border-right{
+  border-right: white solid 3px;
+}
+
+
+
+// Position
+
+.absolute{
+  position: absolute;
+}
 
 // Import only what you need from Bulma
+@import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
 @import "../node_modules/bulma/sass/elements/button.sass";
@@ -35,3 +184,34 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/helpers/flexbox.sass";
+@import "../node_modules/bulma/sass/helpers/spacing.sass";
+
+
+
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$wight: #ffff;
+
+// Update Bulma's global variables
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $wight;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+
+
+
+
