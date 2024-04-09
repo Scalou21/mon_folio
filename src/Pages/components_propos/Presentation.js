@@ -8,17 +8,17 @@ export default function Presentation() {
     <Fragment>
       <section className="section mt-9 is-flex is-flex-direction-column">
         <div className="is-flex is-justify-content-center">
-          <h1 className="is-family-sans-serif has-text-weight-bold fs-8 w-70 has-text-centered ">
+          <h1 className="has-text-black is-family-sans-serif has-text-weight-bold fs-8 w-70 has-text-centered ">
             Vous m'aimez déjà j'ai raison ?
           </h1>
         </div>
       </section>
       <section className="section is-flex is-justify-content-space-between">
         <aside className="w-50pct is-flex">
-        <h2 className="has-text-weight-semibold fs-6 w-25 absolute">
+        <h2 className="has-text-black has-text-weight-semibold fs-6 w-25 absolute">
             On se tutoie ?
           </h2>
-        <div className="is-flex w-100pct is-justify-content-flex-end pright-5">
+        <div className="is-flex w-100pct is-justify-content-flex-end mright-5 ">
             <img
               src="../../assets/photo_pres.jpg"
               alt="Jérôme Rouchy"
@@ -28,8 +28,8 @@ export default function Presentation() {
          
         </aside>
 
-        <article className="is-flex w-50pct is-flex-direction-column is-justify-content-center">
-          <h3 className="has-text-weight-semibold is-size-2">Petite présentation :</h3>
+        <article className="is-flex w-50pct is-flex-direction-column is-justify-content-center pleft-5">
+          <h3 className="has-text-black has-text-weight-semibold is-size-2">Petite présentation :</h3>
           <p className="pt-6 fs-2-25">
             Je m'appelle Jérôme Rouchy, un passionné du numérique âgé de 31 ans
             et résidant aux abords de Dijon.
@@ -40,9 +40,11 @@ export default function Presentation() {
           </p>
         </article>
       </section>
-      <section>
+      <section className="is-flex is-flex-direction-column section">
+        <div className="is-flex">
         <Formation />
         <Interest />
+        </div>
         <Objectives />
       </section>
     </Fragment>

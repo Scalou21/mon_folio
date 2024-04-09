@@ -1,8 +1,8 @@
 export default function Formation() {
   return (
-    <div>
-      <h3>Formation :</h3>
-      <p>
+    <article className="w-50pct has-background-black has-text-white is-flex is-flex-direction-column is-justify-content-center mright-5 p-5">
+      <h3 className="has-text-weight-semibold is-size-2 pt-4">Formation :</h3>
+      <p className="fs-2-25 pt-5 pb-6">
         J'ai entrepris une formation diplômante en infographie multimédia, où
         j'ai maîtrisé des logiciels tels que Photoshop, Illustrator et InDesign.
         Cette première étape a été suivie d'une seconde formation en
@@ -10,6 +10,6 @@ export default function Formation() {
         CSS, JavaScript, et PHP. La gestion de bases de données et la création
         de maquettes de site web font également partie de mon expertise.
       </p>
-    </div>
+    </article>
   );
 }

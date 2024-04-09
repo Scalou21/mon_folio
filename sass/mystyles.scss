@@ -24,8 +24,16 @@ $resize-logo-nav: 4rem;
   width: 100vw;
 }
 
+.w-45pct{
+  width: 45%;
+}
+
 .w-50pct {
   width: 50%;
+}
+
+.w-90pct{
+  width: 90rem;
 }
 
 .w-100pct{
@@ -116,8 +124,20 @@ $resize-logo-nav: 4rem;
   margin-top: 9rem;
 }
 
-.ml-10 {
-  margin-left: 10rem;
+.mt-10{
+  margin-top: 10rem;
+}
+
+.ml-5{
+  margin-left: 5rem;
+}
+
+.mleft-5 {
+  margin-left: 5rem;
+}
+
+.mright-5{
+  margin-right: 5rem;
 }
 
 
@@ -127,8 +147,8 @@ $resize-logo-nav: 4rem;
   padding-top: 10rem;
 }
 
-.pright-5{
-  padding-right: 5rem !important;
+.pleft-5{
+  padding-left: 5rem !important;
 }
 
 
