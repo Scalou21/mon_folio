@@ -8,7 +8,7 @@ const iconsSocial = [
 
 export default function SocialList() {
   return (
-    <ul>
+    <ul className="fa-9x">
       {iconsSocial.map((element) => (
         <li key={element.alt} id={element.alt}>
           <FontAwesomeIcon icon={element.icon} alt={element.alt} />

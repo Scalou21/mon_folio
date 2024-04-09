@@ -4,19 +4,26 @@ import SocialList from "./SocialList";
 export default function Contact() {
   return (
     <Fragment>
-      <section>
-        <div>
-          <h1>CONTACT</h1>
-          <p><strong>Domicile :</strong></p>
-          <p>8 route d'echigey</p>
-          <p>21110 MARLIENS</p>
-          <p><strong>Mail :</strong></p>
-          <p>jerome.rouchy@hotmail.fr</p>
-          <p><strong>Mobile :</strong></p>
-          <p>07.81.01.84.88</p>
+      <section className="section is-flex">
+        <div className="is-flex w-50pct">
+        <aside className="vertical is-flex">
+          <h1 className="is-size-folio is-family-secondary has-text-weight-bold lh-11">
+            CONTACT
+          </h1>
+        </aside>
+        <article className="is-flex is-flex-direction-column is-justify-content-center mleft-5">
+          <p className="has-text-weight-semibold fs-title">Domicile :</p>
+          <p className="is-size-1">8 route d'echigey</p>
+          <p className="is-size-1">21110 MARLIENS</p>
+          <p className="has-text-weight-semibold fs-title">Mail :</p>
+          <p className="is-size-1">jerome.rouchy@hotmail.fr</p>
+          <p className="has-text-weight-semibold fs-title">Mobile :</p>
+          <p className="is-size-1">07.81.01.84.88</p>
+        </article>
         </div>
-        <div>
-            <SocialList  />
+
+        <div className="w-50pct is-flex is-justify-content-center is-align-items-center">
+          <SocialList />
         </div>
       </section>
     </Fragment>
