@@ -12,12 +12,13 @@ export default function Navbar() {
         aria-label="main navigation"
       >
         <div className="navbar-brand">
-          <Link to="/" className="navbar-item pl-0">
+          <Link to="/" className=" logo-mobile navbar-item pl-0">
             <img
               src="../../assets/logo.png"
               alt="my logo"
               width="61"
               height="67"
+              className="logo-mobile"
             />
           </Link>
           {/* The navbar-burger */}

@@ -73,11 +73,14 @@
 .mt-9 {
   margin-top: 9rem; }
 
+.mb-15 {
+  margin-bottom: 15rem; }
+
 .mt-10 {
   margin-top: 10rem; }
 
-.ml-5 {
-  margin-left: 5rem; }
+.ml-10 {
+  margin-left: 10rem; }
 
 .mleft-5 {
   margin-left: 5rem; }
@@ -109,6 +112,10 @@
   writing-mode: vertical-rl; }
 
 .transition {
+  transition: all .4s ease-out; }
+
+.transition-social {
+  color: grey;
   transition: all .4s ease-out; }
 
 .borderless {

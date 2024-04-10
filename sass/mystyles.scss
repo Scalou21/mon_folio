@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 $family-sans-serif: "Roboto";
 $family-primary: "Raleway";
 $family-secondary: "Roboto Condensed";
@@ -124,12 +125,16 @@ $resize-logo-nav: 4rem;
   margin-top: 9rem;
 }
 
+.mb-15{
+  margin-bottom: 15rem;
+}
+
 .mt-10{
   margin-top: 10rem;
 }
 
-.ml-5{
-  margin-left: 5rem;
+.ml-10{
+  margin-left: 10rem;
 }
 
 .mleft-5 {
@@ -185,6 +190,11 @@ $resize-logo-nav: 4rem;
   transition: all .4s ease-out;
 }
 
+.transition-social{
+  color: grey;
+  transition: all .4s ease-out;
+}
+
 .borderless {
   border: none !important;
 }
@@ -214,6 +224,8 @@ $resize-logo-nav: 4rem;
 @import "../node_modules/bulma/sass/layout/section.sass";
 @import "../node_modules/bulma/sass/helpers/flexbox.sass";
 @import "../node_modules/bulma/sass/helpers/spacing.sass";
+@import "../node_modules/bulma/sass/utilities/mixins.sass";
+
 
 
 

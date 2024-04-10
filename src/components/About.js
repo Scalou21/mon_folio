@@ -9,7 +9,7 @@ export default function About() {
         </h3>
       </aside>
 
-      <article className="is-flex is-flex-direction-column is-justify-content-center ml-10">
+      <article className="is-flex is-flex-direction-column is-justify-content-center mleft-5">
         <h4 className="is-family-primary fs-title has-text-weight-semibold has-text-black">
           Bonjour !
         </h4>
