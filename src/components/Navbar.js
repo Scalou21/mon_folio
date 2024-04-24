@@ -11,14 +11,13 @@ export default function Navbar() {
         role="navigation"
         aria-label="main navigation"
       >
-        <div className="navbar-brand">
+        <div className="navbar-brand align-items-center-mobile">
           <Link to="/" className=" logo-mobile navbar-item pl-0">
             <img
               src="../../assets/logo.png"
               alt="my logo"
               width="61"
               height="67"
-              className="logo-mobile"
             />
           </Link>
           {/* The navbar-burger */}
@@ -32,30 +31,30 @@ export default function Navbar() {
             aria-expanded="false"
             data-target="navbarBasic"
           >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+            <span aria-hidden="true" className="width-1-5-mobile height-0-1-mobile"></span>
+            <span aria-hidden="true" className="width-1-5-mobile height-0-1-mobile"></span>
+            <span aria-hidden="true" className="width-1-5-mobile height-0-1-mobile"></span>
           </a>
         </div>
 
         {/* The navbar-menu */}
-        <div className={`navbar-menu ${isActive && "is-active"}`}>
+        <div className={`navbar-menu bg-black-mobile ${isActive && "is-active"}`}>
           <div className="navbar-end">
-            <div className="is-flex is-flex-direction-column is-justify-content-center is-size-6">
-              <Link to="/apropos" className="is-flex is-justify-content-end">
-                <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition">
+            <div className="is-flex is-flex-direction-column is-justify-content-center is-size-6 align-content-around-mobile">
+              <Link to="/apropos" className="is-flex is-justify-content-end justify-content-center-mobile">
+                <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition white-mobile fs-2-mobile">
                   à propos
                 </button>
               </Link>
 
-              <Link to="/" className="is-flex is-justify-content-end">
-                <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition">
+              <Link to="/" className="is-flex is-justify-content-end justify-content-center-mobile">
+                <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition white-mobile fs-2-mobile">
                   compétences
                 </button>
               </Link>
 
-              <Link to="/contact" className="is-flex is-justify-content-end">
-                <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition">
+              <Link to="/contact" className="is-flex is-justify-content-end justify-content-center-mobile">
+                <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition white-mobile fs-2-mobile">
                   contact
                 </button>
               </Link>

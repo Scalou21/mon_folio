@@ -1,0 +1,168 @@
+@media screen and (min-width: $gap) and (max-width: $tablet) {
+
+  .display-flex-mobile{
+    display: flex;
+  }
+
+  .flex-column-mobile{
+    flex-direction: column !important;
+  }
+
+  .flex-wrap-mobile{
+    flex-wrap: wrap;
+  }
+
+  .flex-row-mobile{
+    flex-direction: row !important;
+  }
+
+  .justify-content-center-mobile{
+    justify-content: center !important;
+  }
+
+  .justify-content-around-mobile{
+    justify-content: space-around !important;
+  }
+
+  .align-content-around-mobile{
+    align-content: space-around !important;
+  }
+
+  .align-items-center-mobile{
+    align-items: center;
+  }
+
+  .fs-6-mobile{
+    font-size: 6rem;
+  }
+
+  .fs-3-75-mobile{
+    font-size: 3.75rem;
+  }
+
+  .fs-3-mobile{
+    font-size: 3rem;
+  }
+
+  .fs2-5-mobile{
+    font-size: 2.5rem;
+  }
+
+  .fs-2-25-mobile{
+    font-size: 2.25rem;
+  }
+
+  .fs-2-mobile{
+    font-size: 2rem !important;
+  }
+
+  .fs-1-5-mobile{
+    font-size: 1.5rem !important;
+  }
+
+  .fs-1-125-mobile{
+    font-size: 1.125rem;
+  }
+
+  .line-height-0-mobile{
+    line-height: normal;
+  }
+
+  .line-height-5-mobile{
+    line-height: 5rem;
+  }
+
+  .margin-left-0-mobile{
+    margin-left: 0;
+  }
+
+  .margin-right-0-mobile{
+    margin-right: 0;
+  }
+
+  .margin-top-4-mobile{
+    margin-top: 4rem;
+  }
+
+  .margin-top-1-mobile{
+    margin-top: 1rem;
+  }
+
+  .padding-top-2-15-mobile{
+    padding-top: 2.15rem;
+  }
+
+  .padding-top-5-mobile{
+    padding-top: 5rem;
+  }
+
+  .padding-left-0-mobile{
+    padding-left: 0 !important;
+  }
+
+  .section-mobile{
+    padding: 4rem 2.5rem;
+  }
+
+  
+
+  .transform-none-mobile{
+    transform: none;
+  }
+
+  .writing-mode-unset-mobile{
+    writing-mode: unset;
+  }
+
+  .vh-0-mobile{
+    height: auto;
+  }
+
+  .width-75vw-mobile{
+    width: 75vw;
+  }
+
+  .width-100pct-mobile{
+    width: 100%;
+  }
+
+  .width-8-mobile{
+    width: 8rem;
+  }
+
+  .width-1-5-mobile{
+    width: 1.5rem !important;
+  }
+
+  .height-auto-mobile{
+    height: auto;
+  }
+
+  .height-100vh-mobile{
+    height: 100vh;
+  }
+
+  .height-0-125-mobile{
+    height: 0.125rem;
+  }
+
+  .height-0-1-mobile{
+    height: 0.1rem !important;
+  }
+
+  .text-align-center-mobile{
+    text-align: center;
+  }
+
+  .display-none-mobile{
+    display: none;
+  }
+
+  .white-mobile{
+    color: white !important;
+  }
+
+  .bg-black-mobile{
+    background-color: black;
+  }
+}

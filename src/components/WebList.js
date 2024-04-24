@@ -15,7 +15,7 @@ const iconsWeb = [
 
 export default function WebList() {
   return (
-    <ul className="is-flex is-align-items-center is-justify-content-space-around width-100vw fa-9x has-text-black">
+    <ul className="is-flex is-align-items-center is-justify-content-space-around width-100vw fa-9x has-text-black flex-wrap-mobile width-75vw-mobile fs-6-mobile text-align-center-mobile">
       {iconsWeb.map((element) => (
         <li key={element.text} id={element.text}>
           <FontAwesomeIcon icon={element.icon} alt={element.text} />
