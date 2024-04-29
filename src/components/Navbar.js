@@ -38,23 +38,23 @@ export default function Navbar() {
         </div>
 
         {/* The navbar-menu */}
-        <div className={`navbar-menu bg-black-mobile ${isActive && "is-active"}`}>
+        <div className={`navbar-menu bg-black-mobile bg-black-tablet ${isActive && "is-active"}`}>
           <div className="navbar-end">
-            <div className="is-flex is-flex-direction-column is-justify-content-center is-size-6 align-content-around-mobile">
-              <Link to="/apropos" className="is-flex is-justify-content-end justify-content-center-mobile">
-                <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition white-mobile fs-2-mobile">
+            <div className="is-flex is-flex-direction-column is-justify-content-center is-size-6 align-content-around-mobile align-content-around-tablet">
+              <Link to="/apropos" className="is-flex is-justify-content-end justify-content-center-mobile justify-content-center-tablet">
+                <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition white-mobile fs-2-mobile white-tablet fs-3-tablet">
                   à propos
                 </button>
               </Link>
 
-              <Link to="/" className="is-flex is-justify-content-end justify-content-center-mobile">
-                <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition white-mobile fs-2-mobile">
+              <Link to="/" className="is-flex is-justify-content-end justify-content-center-mobile justify-content-center-tablet">
+                <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition white-mobile fs-2-mobile white-tablet fs-3-tablet">
                   compétences
                 </button>
               </Link>
 
-              <Link to="/contact" className="is-flex is-justify-content-end justify-content-center-mobile">
-                <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition white-mobile fs-2-mobile">
+              <Link to="/contact" className="is-flex is-justify-content-end justify-content-center-mobile justify-content-center-tablet">
+                <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition white-mobile fs-2-mobile white-tablet fs-3-tablet">
                   contact
                 </button>
               </Link>

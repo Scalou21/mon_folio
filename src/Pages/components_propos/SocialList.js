@@ -9,7 +9,7 @@ const iconsSocial = [
 
 export default function SocialList() {
   return (
-    <ul className="fa-9x has-text-black is-flex is-flex-direction-column is-align-items-center flex-column-mobile flex-row-mobile">
+    <ul className="fa-9x has-text-black is-flex is-flex-direction-column is-align-items-center flex-column-mobile flex-row-mobile fs-6-mobile fs-6-tablet">
       {iconsSocial.map((element) => (
         <li key={element.alt} id={element.alt}>
           <a href={element.href} className="transition-social"><FontAwesomeIcon icon={element.icon} alt={element.alt} /></a>

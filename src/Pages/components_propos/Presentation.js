@@ -8,30 +8,30 @@ export default function Presentation() {
     <Fragment>
       <section className="section mt-9 is-flex is-flex-direction-column">
         <div className="is-flex is-justify-content-center">
-          <h1 className="has-text-black is-family-sans-serif has-text-weight-bold fs-8 w-70 has-text-centered fs-2-25-mobile">
+          <h1 className="has-text-black is-family-sans-serif has-text-weight-bold fs-8 w-70 has-text-centered fs-2-25-mobile fs-5-tablet">
             Vous m'aimez déjà j'ai raison ?
           </h1>
         </div>
       </section>
       <section className="section is-flex is-justify-content-space-between flex-column-mobile">
         <aside className="w-50pct is-flex width-100pct-mobile">
-          <h2 className="has-text-black has-text-weight-semibold fs-6 w-25 absolute fs-2-mobile width-8-mobile">
+          <h2 className="has-text-black has-text-weight-semibold fs-6 w-25 absolute fs-2-mobile width-8-mobile fs-3-tablet width-11-tablet">
             On se tutoie ?
           </h2>
-          <div className="is-flex w-100pct is-justify-content-flex-end mright-5 margin-right-0-mobile padding-top-2-15-mobile">
+          <div className="is-flex w-100pct is-justify-content-flex-end mright-5 margin-right-0-mobile padding-top-2-15-mobile margin-right-0-tablet">
             <img src="../../assets/photo_pres.jpg" alt="Jérôme Rouchy" />
           </div>
         </aside>
 
-        <article className="is-flex w-50pct is-flex-direction-column is-justify-content-center pleft-5 width-100pct-mobile padding-left-0-mobile margin-top-4-mobile">
+        <article className="is-flex w-50pct is-flex-direction-column is-justify-content-center pleft-5 width-100pct-mobile padding-left-0-mobile margin-top-4-mobile padding-left-1-tablet">
           <h3 className="has-text-black has-text-weight-semibold is-size-2 fs-2-mobile">
             Petite présentation :
           </h3>
-          <p className="pt-6 fs-2-25 has-text-justified fs-1-5-mobile">
-            Je m'appelle Jérôme Rouchy, un passionné du numérique âgé de 31 ans
+          <p className="pt-6 fs-2-25 has-text-justified fs-1-5-mobile fs-2-tablet">
+            Je m'appelle Jérôme Rouchy, un passionné du numérique âgé de 32 ans
             et résidant aux abords de Dijon.
           </p>
-          <p className="pt-6 fs-2-25 has-text-justified fs-1-5-mobile">
+          <p className="pt-6 fs-2-25 has-text-justified fs-1-5-mobile fs-2-tablet">
             Je suis titulaire du permis B et je possède également mon propre
             véhicule.
           </p>

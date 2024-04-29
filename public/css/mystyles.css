@@ -12046,8 +12046,8 @@ a.navbar-item,
 .lh-7 {
   line-height: 7rem; }
 
-.lh-11 {
-  line-height: 11rem; }
+.lh-9 {
+  line-height: 9rem; }
 
 .is-vertical {
   transform: rotate(-90deg);
@@ -12161,4 +12161,80 @@ a.navbar-item,
   .white-mobile {
     color: white !important; }
   .bg-black-mobile {
-    background-color: black; } }
+    background-color: black; }
+  .display-mobile {
+    display: flex; } }
+
+@media screen and (min-width: 769px) and (max-width: 1020px) {
+  .flex-column-tablet {
+    flex-direction: column !important; }
+  .justify-content-center-tablet {
+    justify-content: center !important; }
+  .align-content-around-tablet {
+    align-content: space-around; }
+  .is-size-folio {
+    font-size: 11.5vw; }
+  .fs-7-tablet {
+    font-size: 7rem; }
+  .fs-6-tablet {
+    font-size: 6rem; }
+  .fs-5-tablet {
+    font-size: 5rem; }
+  .fs-4-25-tablet {
+    font-size: 4.25rem; }
+  .fs-4-tablet {
+    font-size: 4rem; }
+  .fs-3-25-tablet {
+    font-size: 3.25rem; }
+  .fs-3-tablet {
+    font-size: 3rem; }
+  .fs-2-5-tablet {
+    font-size: 2.5rem; }
+  .fs-2-tablet {
+    font-size: 2rem !important; }
+  .fs-1-75-tablet {
+    font-size: 1.75rem !important; }
+  .fs-1-5-tablet {
+    font-size: 1.5rem; }
+  .transform-none-tablet {
+    transform: none; }
+  .writing-mode-unset-tablet {
+    writing-mode: unset; }
+  .vh-0-tablet {
+    height: auto; }
+  .height-auto-tablet {
+    height: auto; }
+  .width-11-tablet {
+    width: 11rem; }
+  .line-height-0-tablet {
+    line-height: 0; }
+  .text-align-center-tablet {
+    text-align: center; }
+  .margin-left-10-tablet {
+    margin-left: 10rem; }
+  .margin-left-1-tablet {
+    margin-left: 1rem !important; }
+  .margin-left-0-tablet {
+    margin-left: 0; }
+  .margin-right-0-tablet {
+    margin-right: 0; }
+  .margin-right-1-tablet {
+    margin-right: 1rem !important; }
+  .margin-top-9-tablet {
+    margin-top: 9rem; }
+  .margin-top-5-tablet {
+    margin-top: 5rem; }
+  .margin-top-2-tablet {
+    margin-top: 2rem; }
+  .padding-top-5-tablet {
+    padding-top: 5rem; }
+  .padding-top-1-tablet {
+    padding-top: 1rem; }
+  .padding-right-1-tablet {
+    padding-right: 1rem; }
+  .padding-left-1-tablet {
+    padding-left: 1rem !important; }
+  .bg-black-tablet {
+    background-color: black; }
+  .white-tablet {
+    color: white !important; } }
