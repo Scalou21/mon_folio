@@ -11952,6 +11952,7 @@ a.navbar-item,
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
   animation-duration: 1s; }
 
 .navbar-item img {

@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <Fragment>
       <section className="mt-9 is-flex is-flex-direction-column is-align-items-center">
-        <h1 className="fs2-5-mobile is-size-title has-text-weight-bold is-family-secondary has-text-black fs-4-25-tablet">
+        <h1 className="fs2-5-mobile is-size-title has-text-weight-bold is-family-secondary has-text-black fs-4-25-tablet" id="home">
           Jérôme Rouchy
         </h1>
         <h2 className="is-size-1 has-text-weight-light fs-2-mobile">Designer Web</h2>
