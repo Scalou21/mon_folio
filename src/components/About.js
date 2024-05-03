@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 
 
 export default function About() {
@@ -28,11 +29,11 @@ export default function About() {
           Qu’attendez-vous pour me recruter ?
         </p>
         <div className="is-flex is-justify-content-flex-end justify-content-center-mobile justify-content-center-tablet">
-          <Link to="/apropos">
+          <HashLink to="/apropos#apropos">
             <button className="button is-black is-outlined is-medium is-radiusless has-text-weight-semibold mt-6 transition">
               + si affinités
             </button>
-          </Link>
+          </HashLink>
         </div>
       </article>
     </section>
