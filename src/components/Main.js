@@ -11,7 +11,7 @@ export default function Main() {
 
         <About />
 
-        <Skills />
+        <Skills/>
       </main>
     </Fragment>
   );

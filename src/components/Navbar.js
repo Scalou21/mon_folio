@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink, HashLink as Link } from "react-router-hash-link";
 import { useState } from "react";
 import { Fragment } from "react";
 
@@ -12,7 +12,7 @@ export default function Navbar() {
         aria-label="main navigation"
       >
         <div className="navbar-brand align-items-center-mobile">
-          <Link to="/" className=" logo-mobile navbar-item pl-0">
+          <Link to="/#home" className=" logo-mobile navbar-item pl-0">
             <img
               src="../../assets/logo.png"
               alt="my logo"
@@ -41,23 +41,23 @@ export default function Navbar() {
         <div className={`navbar-menu bg-black-mobile bg-black-tablet ${isActive && "is-active"}`}>
           <div className="navbar-end">
             <div className="is-flex is-flex-direction-column is-justify-content-center is-size-6 align-content-around-mobile align-content-around-tablet">
-              <Link to="/apropos" className="is-flex is-justify-content-end justify-content-center-mobile justify-content-center-tablet">
+              <HashLink to="/apropos#apropos" className="is-flex is-justify-content-end justify-content-center-mobile justify-content-center-tablet">
                 <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition white-mobile fs-2-mobile white-tablet fs-3-tablet">
                   à propos
                 </button>
-              </Link>
+              </HashLink>
 
-              <Link to="/" className="is-flex is-justify-content-end justify-content-center-mobile justify-content-center-tablet">
+              <HashLink to="/#myskills" className="is-flex is-justify-content-end justify-content-center-mobile justify-content-center-tablet">
                 <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition white-mobile fs-2-mobile white-tablet fs-3-tablet">
                   compétences
                 </button>
-              </Link>
+              </HashLink>
 
-              <Link to="/contact" className="is-flex is-justify-content-end justify-content-center-mobile justify-content-center-tablet">
+              <HashLink to="/contact#contact" className="is-flex is-justify-content-end justify-content-center-mobile justify-content-center-tablet">
                 <button className="navbar-item button is-family-secondary has-text-weight-semibold borderless is-black is-outlined is-radiusless transition white-mobile fs-2-mobile white-tablet fs-3-tablet">
                   contact
                 </button>
-              </Link>
+              </HashLink>
             </div>
           </div>
         </div>

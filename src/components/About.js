@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 export default function About() {
   return (
     <section className="section pt-0 vh-100 is-flex flex-column-mobile section-mobile height-auto-mobile flex-column-tablet height-auto-tablet margin-top-4-mobile">

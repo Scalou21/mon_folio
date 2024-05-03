@@ -11950,6 +11950,10 @@ a.navbar-item,
   padding-top: auto !important;
   padding-bottom: auto !important; }
 
+html {
+  scroll-behavior: smooth;
+  animation-duration: 1s; }
+
 .navbar-item img {
   max-height: 4rem !important; }
 

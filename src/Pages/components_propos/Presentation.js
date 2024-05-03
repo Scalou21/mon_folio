@@ -6,7 +6,7 @@ import Objectives from "./Objectives";
 export default function Presentation() {
   return (
     <Fragment>
-      <section className="section mt-9 is-flex is-flex-direction-column">
+      <section className="section mt-9 is-flex is-flex-direction-column" id="apropos">
         <div className="is-flex is-justify-content-center">
           <h1 className="has-text-black is-family-sans-serif has-text-weight-bold fs-8 w-70 has-text-centered fs-2-25-mobile fs-5-tablet">
             Vous m'aimez déjà j'ai raison ?

@@ -54,12 +54,10 @@ $input-shadow: none;
 
 
 
-
-
-
-
-
-
+html{
+  scroll-behavior: smooth;
+  animation-duration: 1s;
+}
 
 
 // Variables for Navbar

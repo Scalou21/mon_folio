@@ -1,13 +1,14 @@
 import { Fragment } from "react";
 import SocialList from "./SocialList";
 
+
 export default function Contact() {
   return (
     <Fragment>
       <section className="section is-flex flex-column-mobile">
         <div className="is-flex w-50pct flex-column-mobile width-100pct-mobile">
         <aside className="vertical is-flex transform-none-mobile writing-mode-unset-mobile justify-content-center-mobile justify-content-center-tablet">
-          <h1 className="is-size-folio is-family-secondary has-text-weight-bold lh-11 has-text-black ">
+          <h1 className="is-size-folio is-family-secondary has-text-weight-bold lh-11 has-text-black" id="contact">
             CONTACT
           </h1>
         </aside>

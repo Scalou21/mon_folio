@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <Fragment>
       <section className="section is-flex is-flex-direction-column vh-100 height-auto-mobile height-auto-tablet">
-        <h2 className="is-flex is-justify-content-center is-size-folio has-text-black is-family-sans-serif has-text-weight-semibold">
+        <h2 className="is-flex is-justify-content-center is-size-folio has-text-black is-family-sans-serif has-text-weight-semibold" id="myskills">
           COMPÉTENCES
         </h2>
 
