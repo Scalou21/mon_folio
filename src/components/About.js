@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section className="section pt-0 vh-100 is-flex flex-column-mobile section-mobile height-auto-mobile flex-column-tablet height-auto-tablet margin-top-4-mobile">
       <aside className="is-flex justify-content-center-mobile justify-content-center-tablet">
-        <h3 className="is-family-sans-serif has-text-weight-semibold has-text-grey is-size-folio vertical vh-100 lh-9 fs-3-mobile transform-none-mobile
+        <h3 className="is-family-sans-serif has-text-weight-semibold has-text-grey fs-10-5-vw-fullhd line-height-12-5-fullhd is-size-folio vertical vh-100 lh-9 fs-3-mobile transform-none-mobile
          writing-mode-unset-mobile vh-0-mobile line-height-0-mobile transform-none-tablet writing-mode-unset-tablet vh-0-tablet line-height-0-tablet fs-5-tablet margin-top-5-tablet">
           C'EST MOI
         </h3>
