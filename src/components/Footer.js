@@ -1,3 +1,5 @@
+import { HashLink, HashLink as Link } from "react-router-hash-link";
+
 export default function Footer() {
   return (
     <footer className="footer is-flex is-justify-content-space-around has-background-black has-text-white mt-6 flex-column-mobile">
@@ -17,7 +19,7 @@ export default function Footer() {
             <img src="../../assets/logo_footer.png" alt="my logo" className="display-none-mobile"/>
           </div>
           <div className="is-flex is-flex-direction-column is-justify-content-space-between has-text-weight-semibold is-size-5 fs-1-125-mobile line-height-5-mobile margin-top-1-mobile text-align-center-mobile fs-1-5-tablet padding-top-1-tablet">
-            <p>Mail : jerome.rouchy@hotmail.fr</p>
+            <Link to="mailto : jerome.rouchy@hotmail.fr" className="has-text-white">Mail : jerome.rouchy@hotmail.fr</Link>
             <p>Mobile : 07.81.01.84.88</p>
           </div>
         </div>
