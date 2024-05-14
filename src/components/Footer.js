@@ -19,7 +19,7 @@ export default function Footer() {
             <img src="../../assets/logo_footer.png" alt="my logo" className="display-none-mobile"/>
           </div>
           <div className="is-flex is-flex-direction-column is-justify-content-space-between has-text-weight-semibold is-size-5 fs-1-125-mobile line-height-5-mobile margin-top-1-mobile text-align-center-mobile fs-1-5-tablet padding-top-1-tablet">
-            <Link to="mailto : jerome.rouchy@hotmail.fr" className="has-text-white">Mail : jerome.rouchy@hotmail.fr</Link>
+            <a href="mailto:jerome.rouchy@hotmail.fr" target="_blank" className="has-text-white">Mail : jerome.rouchy@hotmail.fr</a>
             <p>Mobile : 07.81.01.84.88</p>
           </div>
         </div>
